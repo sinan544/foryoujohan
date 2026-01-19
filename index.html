@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 🎁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="screen active" id="screen1">
+  <div class="gift" onclick="nextScreen()">
+    🎁
+    <p>Tap to Open</p>
+  </div>
+</div>
+
+<div class="screen" id="screen2">
+  <h1 id="countdown">3</h1>
+</div>
+
+<div class="screen" id="screen3">
+  <h1 id="typeText"></h1>
+  <p class="hint">Tap anywhere ✨</p>
+</div>
+
+<div class="screen" id="screen4">
+  <h1>🎂</h1>
+  <p>Make a wish and tap the candle</p>
+  <div class="candle" onclick="blowCandle()">🕯️</div>
+</div>
+
+<div class="screen" id="screen5">
+  <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+
+</div>
+
+<div class="screen" id="screen6">
+  <h1 id="endingText"></h1>
+  <p class="signature">— From your best friend, always 🤍</p>
+  <span class="cursor">|</span>
+</div>
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
